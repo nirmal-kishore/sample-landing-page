@@ -1,0 +1,229 @@
+*{
+  margin:0;
+  padding:0;
+}
+.navbar{
+  display:flex;
+  justify-content: space-between
+}
+.nav1
+{
+  display:flex;
+
+}
+.navbar img{
+  padding-left: 40px;
+  padding-top:20px;
+  width:15%;
+}
+.nav2{
+  padding-top: 20px;
+  display:flex;
+  color:white;
+  justify-content: space-evenly;
+  width:40%;
+  height:30%;
+
+}
+.nav1 img:hover{
+  transform: scale(1.1);
+  transition: 400ms;
+
+}
+.nav2 a{
+  background-color:black;
+  text-decoration: none;
+  color:white;
+  border-radius: 10px;
+  padding:5px;
+  margin-top: 20px;
+  border: white 1px solid;
+}
+
+.nav2 a:hover{
+  color:black;
+  background: white;
+  transform: scale(1.1);
+  transition: 400ms;
+
+}
+.head{
+  background-image: url('../images/image6.jpg');
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+#showcase
+{
+  /* background-image: url('../images/image6.jpg');
+  height: 100vh;
+  background-position: center;
+  background-size: cover;*/
+  color: rgb(255,255,255);
+  display:flex;
+  flex-direction: column;
+  margin-top: 250px;
+  /*justify-content: center*/
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  padding:0 20px;
+  padding-bottom: 100px;
+
+}
+
+#showcase h1{
+  z-index: 1;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 50px;
+  line-height: 1.2;
+  color:white;
+  font-weight:bolder;
+}
+#showcase a{
+  background-color:black;
+  text-decoration: none;
+  color:white;
+  border-radius: 10px;
+  padding:10px;
+  margin-top: 20px;
+  border: white 1px solid;
+}
+#showcase p
+{
+    font-family: 'Lemonada', cursive;
+    font-size: 20px;
+    z-index: 1;
+}
+#showcase a:hover{
+  background:white;
+  color:black;
+  transform: scale(1.05);
+  transition: 400ms;
+}
+/*
+.a
+{
+  background-color: #F7F5F2;
+}
+*/
+.top{
+  backdrop-filter: blur(5px);
+  padding:10px;
+  color:white;
+  font-weight:bolder;
+}
+.author{
+  position: absolute;
+  right: 50px;
+
+
+
+}
+body{
+  margin:0;
+
+
+}
+.section-1{
+  background-color:black;
+  color:white;
+  text-align: center;
+  padding-top: 30px;
+}
+.section-1 h3{
+  font-family: 'Roboto Mono', monospace;
+  font-size:20px;
+
+}
+.section-1 p{
+  font-size: 13px;
+  font-family: 'Lemonada', cursive;
+}
+.box{
+  width: 33.33vw;
+  height: 20.33vw;
+}
+.box:hover{
+  transform: scale(1.05);
+  transition: 400ms;
+
+}
+.section-3{
+  display:flex;
+  justify-content: space-between;
+
+}
+.section-3 div{
+  padding:20px;
+  text-align: center;
+
+}
+.section-3 .box-1,.section-3 .box-3{
+  background-color: black;
+  color:white;
+  font-family: 'Lemonada', cursive;
+}
+.section-3 .box-2{
+  background-color: white;
+  color:black;
+  font-family: 'Lemonada', cursive;
+}
+.box-4,.box-6{
+  background-color:white;
+  color:black;
+  font-family: 'Lemonada', cursive;
+}
+
+.box-5{
+  background-color: black;
+  color:white;
+  font-family: 'Lemonada', cursive;
+}
+.section-4{
+  display:flex;
+  text-align: center;
+}
+.section-4 div{
+  padding: 20px;
+}
+.section-5{
+  display:flex;
+  text-align:center;
+}
+.section-5 div{
+  padding: 20px;
+}
+.box-7,.box-9{
+  background-color: black;
+  color:white;
+  font-family: 'Lemonada', cursive;
+}
+.box-8{
+  background-color: white;
+  color:black;
+  font-family: 'Lemonada', cursive;
+}
+.section-6{
+  padding-top: 200px;
+  display:flex;
+  font-weight:bold;
+  justify-content: flex-end;
+  background:url(../images/image10.jpg);
+  color:white;
+}
+.section-6 div{
+  padding-top: 20px;
+}
+.section-6 h2{
+  font-family: 'Lemonada', cursive;
+  font-size: 30px;
+
+}
+.section-6 p{
+  padding-left: 20px;
+  line-height: 30px;
+  font-family: 'Roboto Mono', monospace;
+
+
+}
